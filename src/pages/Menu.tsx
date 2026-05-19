@@ -8,18 +8,21 @@ const CUISINES = [
     title: "Русская кухня",
     description: "Наваристые супы, пельмени, блины и домашние блюда",
     image: "https://cdn.poehali.dev/projects/591951c8-f9ba-4198-bc69-6911aff115b4/files/cb2a644b-ff7d-49ea-80ba-f9063fd76d38.jpg",
+    href: "/menu/russian",
   },
   {
     id: "european",
     title: "Европейская кухня",
     description: "Пасты, стейки, свежие салаты и блюда гриль",
     image: "https://cdn.poehali.dev/projects/591951c8-f9ba-4198-bc69-6911aff115b4/files/d30854f9-4176-425c-a364-e513090174b9.jpg",
+    href: null,
   },
   {
     id: "caucasian",
     title: "Кавказская кухня",
     description: "Шашлык, долма, лаваш и блюда на живом огне",
     image: "https://cdn.poehali.dev/projects/591951c8-f9ba-4198-bc69-6911aff115b4/files/1ad6ea34-0728-43a0-8ba1-99e07f937db3.jpg",
+    href: null,
   },
 ];
 
@@ -56,6 +59,7 @@ export default function Menu() {
             className="relative overflow-hidden cursor-pointer group min-h-[320px] md:min-h-0"
             onMouseEnter={() => setHovered(cuisine.id)}
             onMouseLeave={() => setHovered(null)}
+            onClick={() => cuisine.href && navigate(cuisine.href)}
           >
             {/* Фото */}
             <img
