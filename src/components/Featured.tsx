@@ -28,7 +28,7 @@ export default function Featured() {
           ))}
         </div>
         <a
-          href="#menu"
+          href="/menu"
           className="bg-black text-white border border-black px-6 py-3 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-widest"
         >
           Смотреть меню
