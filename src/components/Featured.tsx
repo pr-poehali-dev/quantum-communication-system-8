@@ -17,7 +17,7 @@ export default function Featured() {
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
         <h3 className="uppercase mb-4 text-sm tracking-widest text-orange-500">Почему выбирают нас</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Мы не просто готовим мясо — мы создаём атмосферу настоящего кавказского застолья прямо в Сыктывкаре.
+          Мы не просто готовим мясо — мы создаём атмосферу настоящего армянского застолья прямо в Сыктывкаре.
         </p>
         <div className="flex flex-col gap-5 mb-10">
           {advantages.map((item) => (

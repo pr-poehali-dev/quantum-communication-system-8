@@ -31,7 +31,7 @@ export default function Promo() {
       </h3>
 
       <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-3xl z-10 leading-tight">
-        Каждая порция — это история: маринад по семейному рецепту, уголь из настоящих дров и мясо, которое тает во рту.
+        Каждая порция — это история: армянский маринад по семейному рецепту, уголь из настоящих дров и мясо, которое тает во рту.
       </p>
     </div>
   );

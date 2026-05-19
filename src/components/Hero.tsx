@@ -48,7 +48,7 @@ export default function Hero() {
           ШАШЛЫЧНЫЙ<br />ДВОР ДЫРНОС
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-10">
-          Настоящий кавказский шашлык — мягкое мясо, живой огонь и аромат дыма
+          Настоящий армянский шашлык — мягкое мясо, живой огонь и аромат дыма
         </p>
         <button
           onClick={handleClick}
