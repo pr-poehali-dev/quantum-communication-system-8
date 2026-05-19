@@ -15,7 +15,7 @@ const CUISINES = [
     title: "Европейская кухня",
     description: "Пасты, стейки, свежие салаты и блюда гриль",
     image: "https://cdn.poehali.dev/projects/591951c8-f9ba-4198-bc69-6911aff115b4/files/d30854f9-4176-425c-a364-e513090174b9.jpg",
-    href: null,
+    href: "/menu/european",
   },
   {
     id: "caucasian",
