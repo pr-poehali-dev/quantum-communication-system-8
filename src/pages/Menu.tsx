@@ -22,7 +22,7 @@ const CUISINES = [
     title: "Кавказская кухня",
     description: "Шашлык, долма, лаваш и блюда на живом огне",
     image: "https://cdn.poehali.dev/projects/591951c8-f9ba-4198-bc69-6911aff115b4/files/1ad6ea34-0728-43a0-8ba1-99e07f937db3.jpg",
-    href: null,
+    href: "/menu/caucasian",
   },
 ];
 
